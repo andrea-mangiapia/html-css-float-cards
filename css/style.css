@@ -8,29 +8,46 @@
 /* COMMON */
 body {
     font-family: 'Fredoka', sans-serif;
+    line-height: 25px;
 }
+
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
 }
+
 .container {
     width: 70%;
     margin: auto;
     padding: 20px 0;
 }
+
 header {
     text-align: center;
 }
+
 h1 {
     color: #e53170;
     padding-bottom: 20px;
 }
+
+h3 {
+    padding-top: 10px;
+}
+
 a {
     color: #44a3c6;
+    display: block;
 }
+
 img {
     width: 100px;
+}
+
+.float-left img {
+    float: left;
+    margin-right: 10px;
 }
 
 .col {
